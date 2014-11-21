@@ -1,7 +1,7 @@
 docker-foreman
 ==============
 
-Docker image to run Foreman
+Docker image to run [Foreman](http://theforeman.org/)
 
 
 # Building
