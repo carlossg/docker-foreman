@@ -1,7 +1,7 @@
 FROM devopsil/puppet:3.7.0
 
-RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-RUN yum -y install http://yum.theforeman.org/releases/1.6/el6/x86_64/foreman-release.rpm
+RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+RUN yum -y install https://yum.theforeman.org/releases/1.6/el6/x86_64/foreman-release.rpm
 RUN yum -y install foreman-installer
 
 # make hostname -f work for foreman-installer
